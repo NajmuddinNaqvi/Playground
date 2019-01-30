@@ -32,6 +32,10 @@ public class Test1 {
         }
        @Test
        public void test3() {
-            assertEquals(500.1, 500.1, 0.0);  
+            assertEquals(500.2, 500.2, 0.0);  
         }
+    @Test
+    public void test4() {
+         assertEquals(500.22, 500.22, 0.00);  
+     }
 }
