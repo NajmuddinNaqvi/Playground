@@ -38,4 +38,7 @@ public class Test1 {
     public void test4() {
          assertEquals(500.22, 500.22, 0.00);  
      }
+    public void test5() {
+         assertEquals(500.222, 500.222, 0.000);  
+     }
 }
