@@ -41,4 +41,7 @@ public class Test1 {
     public void test5() {
          assertEquals(500.222, 500.222, 0.000);  
      }
+    public void test6() {
+         assertEquals("Hey", "Hey");  
+     }
 }
